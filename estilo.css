@@ -1,0 +1,46 @@
+@charset "UTF-8"; 
+/* #E8E8D9 */
+
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    background: #d2d2c0 url(imagens/fundo.png);
+    width: 900px;
+    margin: auto;
+}
+
+nav#menu {
+    background-color: #c5c5b2;
+    padding: 18px;
+}
+
+nav#menu > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4B566a;
+    padding: 5px;
+}
+
+section#conteudo {
+    padding: 5px;
+    margin-top: 0px;
+    background-color: #E8E8D9;
+}
+
+section#conteudo > h1 {
+    font-size: 1.2em;
+    padding: 5px;
+    color: #828271;
+}
+
+footer {
+    text-align: center;
+}
+
+footer > p {
+    font-weight: bold;
+}
+
+.borda {
+    border: 10px solid #c5c5b2;
+}
