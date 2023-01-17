@@ -44,3 +44,7 @@ footer > p {
 .borda {
     border: 10px solid #c5c5b2;
 }
+
+div > p {
+    margin: 0;
+}
